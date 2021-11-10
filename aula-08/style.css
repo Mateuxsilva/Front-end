@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 2000px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+}
+
+.first-square{
+    background-color: chartreuse;
+    position: relative;
+}
+
+
+div {position: relative;}
+.second-square {
+    background-color: crimson;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.third-square {
+    background-color: blueviolet;
+    position: fixed;
+    left: 42.25%;
+}
+
+p {
+    text-align: center;
+    line-height: 200px;
+}
+

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 1000px;
+    /* background-size: cover;
+    background-attachment: fixed; */
+    float: right;
+    position: absolute;
+    object-fit: cover;
+}
+
+.main-header{
+    padding-bottom: 14px;
+    background-color: #f58114;
+    object-fit: cover;
+}
+
+.main-header h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 32px;
+    font-style: oblique;
+    font-weight: 200;
+}
+
+.main-content p{
+    text-align: center;
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    padding: 20px;
+}
+
+iframe{
+    position: absolute;
+    margin: 30px 180px 30px 180px;
+    width: 920px;  
+    height: 540px;
+    /* opacity: 0.7; */
+}
+
+span{
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+
+.main-content h2{
+    position: relative;
+    font-family: 'Lobster Two';
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    /* justify-content: center; */
+    /* margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    margin-top: 600px;
+}
+
+.main-content ul{
+    position: relative;
+    font-family: 'Lobster Two', sans-serif;
+    text-align: center;
+    font-size: 21px;
+    color: black;
+    font-weight: bold; 
+}
+
+
+.icons img{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    bottom: 0px;
+    left: 580px;
+    margin-top: 50px;
+    text-align: center;
+}

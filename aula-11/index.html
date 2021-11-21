@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main>
+
+        <form>
+
+            <h1>Cadastro de Usuário</h1>
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <div>
+                    <label for="username">Nome Completo</label>
+                    <input type="text" name="username" id="username">
+                </div>
+
+                <div>
+                    <label for="data">Data de nascimento</label>
+                    <input type="date" name="data" id="data">
+                </div>
+
+                <div>
+                    <label for="userEmail">E-mail</label>
+                    <input type="email" name="userEmail" id="userEmail">
+                </div>
+
+                <div>
+                    <label for="userPassword">Senha</label>
+                    <input type="password" name="userPassword" id="userPassword">
+                </div>
+
+                <div>
+                    <label for="userDescription">Depoimento</label>
+                    <textarea name="userDescription" id="userDescription"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Planos</legend>
+                <div>
+                    <label for="userPlan"></label>
+                    <select name="userPlan" id="userPlan">
+                        <option value="1">Básico</option>
+                        <option value="2">Médio</option>
+                        <option value="3">Premium</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pagamentos</legend>
+                <div>
+                    <input type="radio" name="pagamento" id="credit" checked>
+                    <label for="credit">Crédito</label>
+
+                    <input type="radio" name="pagamento" id="debito">
+                    <label for="debito">Debito</label>
+
+                    <input type="radio" name="pagamento" id="boleto">
+                    <label for="boleto">Boleto</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolher envio</legend>
+                <div>
+                    <input type="radio" name="empresa" id="empresa1" checked>
+                    <label for="empresa1">Correios</label>
+
+                    <input type="radio" name="empresa" id="empresa2">
+                    <label for="empresa2">Jadlog</label>
+
+                    <input type="radio" name="empresa" id="empresa3">
+                    <label for="empresa3">Shippify</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Agendamento entrega</legend>
+                <div>
+                    <label for="date">Data</label>
+                    <input type="date" name="date" id="date" min="2021-11-16" max="2021-11-23">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Produtos</legend>
+                <div>
+                    <input type="checkbox" name="produto" id="produto1">
+                    <label for="produto1">Carregador</label>
+
+                    <input type="checkbox" name="produto" id="produto2">
+                    <label for="produto2">Fone de ouvido</label>
+
+                    <input type="checkbox" name="produto" id="produto3">
+                    <label for="produto3">Case</label>
+                </div>
+            </fieldset>
+
+            <button type="reset">Limpar</button>
+            <button type="submit">Cadastrar</button>
+
+        </form>
+
+    </main>
+
+</body>

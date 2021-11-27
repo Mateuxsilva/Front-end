@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <form>
+
+            <div>
+                <h1 id="titulo">Cadastro de Usuário</h1>
+            </div><br>
+
+            <fieldset class="campo">
+                <legend class="legendas"><strong>Dados pessoais</strong></legend>
+                <br>
+                <div class="divs">
+                    <label for="username">Nome Completo:</label>
+                    <input type="text" name="username" id="username" required>
+                </div>
+
+                <div class="divs">
+                    <label for="userEmail">Email:</label>
+                    <input type="text" name="userEmail" id="userEmail" required>
+                </div>
+
+                <div class="divs">
+                    <label for="userTelefone">Telefone:</label>
+                    <input type="tel" name="userTelefone" id="userTelefone" required>
+                </div>
+
+                <div class="divs">
+                    <label for="data">Data de nascimento:</label>
+                    <input type="date" name="data" id="data" required>
+                </div>
+
+                <div class="divs">
+                    <legend class="legendas"><strong>Selecione sua idade:</strong></legend>
+                    <input type="radio" name="idade" id="idadeMaior" checked>
+                    <label for="idadeMaior">Mais de 18 anos</label>
+
+                    <input type="radio" name="idade" id="idadeMenor">
+                    <label for="idadeMenor">Menos de 18 anos</label>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset class="campo">
+                <legend class="legendas"><strong>Ponto turístico</strong></legend>
+                <div class="divs">
+
+                    <input type="radio" name="cristoRedentor" id="interesse1">
+                    <label for="interesse1">Cristo Redentor</label>
+
+
+                    <input type="radio" name="paodeAçucar" id="interesse2">
+                    <label for="interesse2">Pão de Açucar</label>
+
+                    <input type="radio" name="praiaCopacabana" id="interesse3">
+                    <label for="interesse3">Copacabana</label>
+
+                </div>
+            </fieldset>
+            <br>
+            <fieldset class="campo">
+                <legend class="legendas"><strong>Qual seu interesse na cidade?</strong></legend>
+                <div class="divs">
+                    <input type="checkbox" name="turista" id="visitar">
+                    <label for="visitar">Turista</label>
+
+                    <input type="checkbox" name="Residente" id="residir">
+                    <label for="residir">Residente</label>
+
+                    <input type="checkbox" name="Estudante" id="estudar">
+                    <label for="estudar">Estudante</label>
+                </div>
+            </fieldset>
+
+            <div class="button">
+                <button type="reset" class="main-button">Limpar</button>
+                <button type="submit" class="main-button">Cadastrar</button>
+            </div>
+
+
+
+        </form>
+    </main>
+
+</body>
+
+</html>

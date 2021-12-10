@@ -1,0 +1,79 @@
+main{
+    background-color: rgba(0, 0, 0, 0.918);
+    height: 1600px;
+}
+
+main h1{
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+main #sub{
+    padding-left: 15px;
+    font-size: 19px;
+    color: white;
+}
+
+main #rate {
+    padding-left: 25px;
+}
+
+main #video{
+    display: flex;
+    justify-content: center;
+}
+
+#banner-gucci{
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    height: 650px;
+    background-image: url(https://tracklist.com.br/wp-content/uploads/2021/10/house-of-gucci.jpg);
+}
+
+#banner-aranha{
+    background-image: url(https://sm.ign.com/ign_br/movie/h/homem-aran/homem-aranha-3_ybgv.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    height: 650px;
+}
+
+#banner-spencer{
+    background-image: url(https://i.ytimg.com/vi/WllZh9aekDg/maxresdefault.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    height: 700px;
+}
+
+#banner-twd{
+    background-image: url(https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/805/1050805-h-1ee15863ca8c);
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    height: 650px;
+}
+
+#banner-spn{
+    background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2020/12/supernatural-season-15-cast-poster-1420x798_cnnm.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    height: 650px;
+}
+
+#banner-got{
+    background-image: url(http://s2.glbimg.com/lip1rXjb7IfKWKhzwjKCCsKJcrA=/e.glbimg.com/og/ed/f/original/2017/08/17/game-of-thrones.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    height: 600px;
+}
+
+iframe {
+    width: 70vw;
+    height: 80vh;
+}
+
